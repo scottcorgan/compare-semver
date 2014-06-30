@@ -50,6 +50,13 @@ Compare that  single version is less than all versions in the list
 * `version` - the version to compare
 * `versions` - an array of semantic versions
 
+### unique(version, versions)
+
+Is the given version unique compared to the list of versions
+
+* `version` - the version to compare
+* `versions` - an array of semantic versions
+
 ## Run Tests
 
 ```
