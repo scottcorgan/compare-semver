@@ -1,0 +1,29 @@
+{
+  "name": "compare-semver",
+  "version": "0.1.0",
+  "description": "Compare semver versions to many other semver versions",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/index.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottcorgan/compare-semver.git"
+  },
+  "author": "Scott Corgan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottcorgan/compare-semver/issues"
+  },
+  "homepage": "https://github.com/scottcorgan/compare-semver",
+  "dependencies": {
+    "tape": "^2.13.3",
+    "semver": "^2.3.1"
+  },
+  "devDependencies": {
+    "tap-spec": "^0.2.0"
+  }
+}
