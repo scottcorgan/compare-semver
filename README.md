@@ -36,6 +36,20 @@ Returns the smallest version from the list of versions
 
 * `versions` - an array of semantic versions
 
+### gt(version, versions)
+
+Compare that  single version is greater than all versions in the list
+
+* `version` - the version to compare
+* `versions` - an array of semantic versions
+
+### lt
+
+Compare that  single version is less than all versions in the list
+
+* `version` - the version to compare
+* `versions` - an array of semantic versions
+
 ## Run Tests
 
 ```

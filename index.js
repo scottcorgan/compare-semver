@@ -1,6 +1,6 @@
 var semver = require('semver');
 
-exports.max = function (versions) {
+var max = exports.max = function (versions) {
   var max = '0.0.0';
   
   versions.forEach(function (version) {
@@ -10,7 +10,7 @@ exports.max = function (versions) {
   return max;
 };
 
-exports.min = function (versions) {
+var min = exports.min = function (versions) {
   var min = '999999999999999999.0.0';
   
   versions.forEach(function (version) {
@@ -18,4 +18,14 @@ exports.min = function (versions) {
   });
   
   return min;
+};
+
+exports.gt = function (v, versions) {
+  var m = max(versions);
+  return semver.gt(v, m);
+};
+
+exports.lt = function (v, versions) {
+  var m = min(versions);
+  return semver.lt(v, m);
 };
