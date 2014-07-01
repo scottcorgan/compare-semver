@@ -43,7 +43,7 @@ Compare that  single version is greater than all versions in the list
 * `version` - the version to compare
 * `versions` - an array of semantic versions
 
-### lt
+### lt(version, versions)
 
 Compare that  single version is less than all versions in the list
 

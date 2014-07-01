@@ -1,6 +1,6 @@
 {
   "name": "compare-semver",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Compare semver versions to many other semver versions",
   "main": "index.js",
   "directories": {
