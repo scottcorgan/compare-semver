@@ -1,6 +1,6 @@
 {
   "name": "compare-semver",
-  "version": "0.3.3",
+  "version": "1.0.0",
   "description": "Compare semver versions to many other semver versions",
   "main": "index.js",
   "directories": {
@@ -20,10 +20,10 @@
   },
   "homepage": "https://github.com/scottcorgan/compare-semver",
   "dependencies": {
-    "semver": "^2.3.1"
+    "semver": "^4.2.0"
   },
   "devDependencies": {
-    "tape": "^2.13.3",
-    "tap-spec": "^0.2.0"
+    "tap-spec": "^2.1.2",
+    "tape": "^3.0.3"
   }
 }
