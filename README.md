@@ -1,6 +1,6 @@
 # compare-semver
 
-Find the greatest semantic version out of an array of verisons
+Compare semver versions to many other semver versions.
 
 ## Install
 
